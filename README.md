@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Arnaud Mimart</h1>
+# Hi 👋, I'm Arnaud Mimart
 
 <div align="center">
 <a href="https://github.com/amimart" target="_blank">
