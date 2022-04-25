@@ -20,7 +20,7 @@ I remain above all a developper appreciating code elegancy and lightness, althou
 
 ## 🛵 Rapidfire
 
-- 👨‍💼 I'm currently Cloud Architect at OKP4
+- 👨‍💼 I'm currently Cloud Architect at [OKP4](https://okp4.com/) ([:octocat: repo](https://github.com/okp4/))
 - ✌️ [Egoless Programming](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/) supporter
 - ⚡ Fun fact **I do motocross, but I code faster**
 
