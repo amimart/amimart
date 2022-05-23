@@ -18,7 +18,7 @@ I'm Arnaud Mimart, passionated by cloud native ecosystems I work hard to make my
 
 I strongly believe Web 3.0 will shape our future, decentralization is a concept that resonates with me. I'm currently working on blockchain subjects as I want to contribute and build new usages.
 
-I remain above all a developper appreciating code elegancy and lightness, although I'm not an expert, I love the functionnal programming way and try to give it some time whenever I can.
+I remain above all a developper appreciating code elegancy and lightness, although I'm not an expert, I love the functional programming way and try to give it some time whenever I can.
 
 ## 🛵 Rapidfire
 
