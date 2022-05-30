@@ -86,5 +86,7 @@ I remain above all a developper appreciating code elegancy and lightness, althou
   </tr>
 </table>
 
+![Profile views](https://komarev.com/ghpvc/?username=amimart&style=for-the-badge)
+
 ----
 <div align="center">Based on <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a> / <a href="https://rahuldkjain.github.io/gh-profile-readme-generator/" target="_blank">gh-profile-readme-generator</a></div>
