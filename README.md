@@ -81,7 +81,7 @@ I remain above all a developper appreciating code elegancy and lightness, althou
   </tr>
   <tr>
     <td valign="top" colspan="2">
-      <img src="https://activity-graph.herokuapp.com/graph?username=amimart&hide_border=true&area=true&point=transparent&theme=react-dark" align="center" style="width: 100%;" />
+      <img src="https://github-readme-activity-graph.cyclic.app/graph?username=amimart&hide_border=true&area=true&point=transparent&theme=react-dark" align="center" style="width: 100%;" />
     </td>
   </tr>
 </table>
