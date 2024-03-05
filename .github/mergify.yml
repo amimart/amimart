@@ -1,0 +1,30 @@
+pull_request_rules:
+  - name: Autoapprove dependabot PRs with non major updates
+    conditions:
+      - base = main
+      - author = dependabot[bot]
+      - or: [dependabot-update-type = version-update:semver-minor, dependabot-update-type = version-update:semver-patch]
+    actions:
+      review:
+        type: APPROVE
+
+  - name: Automerge dependabot PRs
+    conditions:
+      - base = main
+      - author = dependabot[bot]
+      - "#approved-reviews-by >= 1"
+    actions:
+      merge:
+        method: merge
+
+  - name: Autoassign PRs to nono
+    conditions:
+      - base = main
+      - assignee != amimart
+    actions:
+      assign:
+        users:
+          - amimart
+      request_reviews:
+        users:
+          - amimart
