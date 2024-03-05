@@ -3,6 +3,7 @@ pull_request_rules:
     conditions:
       - base = main
       - author = dependabot[bot]
+      - approved-reviews-by != mergify[bot]
       - or: [dependabot-update-type = version-update:semver-minor, dependabot-update-type = version-update:semver-patch]
     actions:
       review:
