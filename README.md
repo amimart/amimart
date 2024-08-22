@@ -14,7 +14,7 @@
 
 ## Nice to meet you!
 
-I'm Arnaud Mimart, passionated by cloud native ecosystems I work hard to make my mind interoperable with Kubernetes and projects that gravitate around, my laziness drives me to promote the DevOps culture which I intend to represent body and soul.
+I'm Arnaud Mimart, passionated by cloud native and Web3 ecosystems. My laziness drives me to promote the DevOps culture which I intend to represent body and soul.
 
 I strongly believe Web 3.0 will shape our future, decentralization is a concept that resonates with me. I'm currently working on blockchain subjects as I want to contribute and build new usages.
 
@@ -22,7 +22,7 @@ I remain above all a developper appreciating code elegancy and lightness, althou
 
 ## 🛵 Rapidfire
 
-- 👨‍💼 I'm currently Cloud Architect at [OKP4](https://okp4.com/) ([:octocat: repo](https://github.com/okp4/))
+- 👨‍💼 I'm currently Blockchain Architect at [Axone](https://axone.xyz/) ([:octocat: repo](https://github.com/axone-protocol/))
 - ✌️ [Egoless Programming](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/) supporter
 - ⚡ Fun fact **I do motocross, but I code faster**
 
@@ -81,7 +81,7 @@ I remain above all a developper appreciating code elegancy and lightness, althou
   </tr>
   <tr>
     <td valign="top" colspan="2">
-      <img src="https://github-readme-activity-graph.cyclic.app/graph?username=amimart&hide_border=true&area=true&point=transparent&theme=react-dark" align="center" style="width: 100%;" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=amimart&hide_border=true&area=true&point=transparent&theme=github" align="center" style="width: 100%;" />
     </td>
   </tr>
 </table>
