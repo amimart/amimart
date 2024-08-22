@@ -25,6 +25,8 @@ I remain above all a developper appreciating code elegancy and lightness, althou
 - 👨‍💼 I'm currently Blockchain Architect at [Axone](https://axone.xyz/) ([:octocat: repo](https://github.com/axone-protocol/))
 - ✌️ [Egoless Programming](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/) supporter
 - ⚡ Fun fact **I do motocross, but I code faster**
+- 😍 Rust & Golang
+- 🤮 `Merge branch 'main' into...`
 
 ## 🔧 Languages and Tools
 
