@@ -22,7 +22,7 @@ I remain above all a developper appreciating code elegancy and lightness, althou
 
 ## 🛵 Rapidfire
 
-- 👨‍💼 I'm currently Protocol Engineer at [Allora](https://www.allora.network/) ([:octocat: repo]([https://github.com/axone-protocol/](https://github.com/allora-network/)))
+- 👨‍💼 I'm currently Protocol Engineer at [Allora](https://www.allora.network/) ([:octocat: repo](https://github.com/allora-network/))
 - ✌️ [Egoless Programming](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/) supporter
 - ⚡ Fun fact **I do motocross, but I code faster**
 - 😍 Rust & Golang
