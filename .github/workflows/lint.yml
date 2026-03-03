@@ -11,7 +11,7 @@ on:
 
 jobs:
   lint-commits:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     if: github.actor != 'dependabot[bot]'
     steps:
       - name: Check out repository
@@ -23,7 +23,7 @@ jobs:
         uses: wagoid/commitlint-github-action@v6
 
   lint-markdown:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
@@ -35,7 +35,7 @@ jobs:
           ignore: "CHANGELOG.md"
 
   lint-yaml:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
