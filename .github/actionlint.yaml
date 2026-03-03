@@ -1,0 +1,12 @@
+# GitHub Actions Workflow Linting Configuration
+# Used by actionlint to validate GitHub Actions workflows
+
+# shellcheck configuration for shell scripts in workflows
+shellcheck:
+  # Use latest shellcheck version
+  enable-all-severity-rules: true
+
+# pyflakes configuration for Python expressions in workflows
+pyflakes:
+  # Enable stricter checks
+  enable: true

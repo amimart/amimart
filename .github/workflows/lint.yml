@@ -9,10 +9,22 @@ on:
 
   workflow_dispatch:
 
+# Cancel in-progress runs for the same workflow and ref
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# Restrict permissions by default
+permissions:
+  contents: read
+
 jobs:
   lint-commits:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     if: github.actor != 'dependabot[bot]'
+    permissions:
+      contents: read
+      pull-requests: read
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
@@ -23,22 +35,38 @@ jobs:
         uses: wagoid/commitlint-github-action@v6
 
   lint-markdown:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
 
       - name: Lint markdown files
-        uses: avto-dev/markdown-lint@v1.5.0
+        uses: DavidAnson/markdownlint-cli2-action@v22
         with:
-          args: "**/*.md"
-          ignore: "CHANGELOG.md"
+          globs: '**/*.md'
 
   lint-yaml:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
 
       - name: Lint yaml files
-        uses: ibiqlik/action-yamllint@v3.1.1
+        uses: ibiqlik/action-yamllint@v3
+
+  lint-actions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Lint GitHub Actions workflows
+        run: |
+          bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+          ./actionlint -color
