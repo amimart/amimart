@@ -1,12 +1,3 @@
-# markdownlint-cli2 configuration
-# https://github.com/DavidAnson/markdownlint-cli2
-
-# Globs to ignore
-ignores:
-  - CHANGELOG.md
-  - node_modules
-
-# markdownlint rules configuration
 config:
   # MD013/line-length - Line length
   MD013: false
@@ -16,3 +7,5 @@ config:
   MD033: false
   # MD026/no-trailing-punctuation - Trailing punctuation in heading
   MD026: false
+  # MD045/no-alt-text Images should have alternate text (alt text)
+  MD045: false
