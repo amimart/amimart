@@ -9,6 +9,11 @@ on:
 
   workflow_dispatch:
 
+# Cancel in-progress runs for the same workflow and ref
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint-commits:
     runs-on: ubuntu-latest
