@@ -9,13 +9,21 @@
 </a>
 </div>
 
-## Nice to meet you!
+## 🫡 Nice to meet you!
 
-I'm Arnaud Mimart, passionated by cloud native and Web3 ecosystems. My laziness drives me to promote the DevOps culture which I intend to represent body and soul.
+I'm Arnaud Mimart, passionate about distributed systems, cloud-native technologies, and the Web3 ecosystem. I enjoy understanding how things work under the hood, whether it's a storage engine, a networking protocol, or a blockchain.
 
-I strongly believe Web 3.0 will shape our future, decentralization is a concept that resonates with me. I'm currently working on blockchain subjects as I want to contribute and build new usages.
+I'm a strong believer in the DevOps culture. My laziness keeps pushing me toward automation, reproducibility, and systems that are simple to operate. Kubernetes has been my playground for years.
 
-I remain above all a developper appreciating code elegancy and lightness, although I'm not an expert, I love the functional programming way and try to give it some time whenever I can.
+I believe decentralization will continue to shape the future of software. After spending the last few years working on blockchain protocols and distributed systems, I'm now equally interested in the infrastructure around them: databases, networking, storage engines, and performance-critical backend services.
+
+Above all, I'm a software engineer who appreciates elegant code. I enjoy simple designs, functional ideas when they fit, and building open source software that people enjoy using.
+
+## 🕹️ Current Playground
+
+- [stride-db](https://github.com/amimart/stride-db): 🦀 Experimental mmap-backed MVCC key-value store using a SART;
+- [collette](https://github.com/amimart/collette): 🦀 Typed collections, indexes and scans over KV stores, with zero-cost abstraction;
+- [magnarr](https://github.com/amimart/magnarr): 🦀 Magnet-based torrent download orchestrator;
 
 ## 🛵 Rapidfire
 
